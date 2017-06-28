@@ -16,7 +16,7 @@ def send_mail(to_list,sub,content):
     try:
         server = smtplib.SMTP()
         server.connect(mail_host,25)                            #连接服务器
-        server.login("15122550163@163.com","wanglu135")    #登录操作,密码是授权码，而不是邮箱登录密码
+        server.login("15122550163@163.com","******")    #登录操作,密码是授权码，而不是邮箱登录密码
         server.sendmail(me, to_list, msg.as_string())
         server.close()
         return True

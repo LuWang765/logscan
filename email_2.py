@@ -5,7 +5,7 @@ from email.header import Header
 
 mail_to_list = ['1424419913@qq.com', ]      #接收邮件地址
 mail_user = '15122550163@163.com'                     #发送邮件地址
-mail_user_psw = ''                   #邮箱密码
+mail_user_psw = '******'                   #邮箱密码
 mail_host = 'smtp.163.com'
 
 
